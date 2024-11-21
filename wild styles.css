@@ -1,0 +1,78 @@
+body{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/wild7.jpg);
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(146, 97, 23);
+}
+#container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding:20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 1300px;
+}
+.logo{
+    position: absolute;
+    left: 20px;
+    height: 120px;
+    width: auto;
+}
+#nav {
+    background-color: rgb(204, 0, 0);
+    color: rgb(255, 254, 254);
+    align-content: center;
+    transition: color 3s;
+    width: 1340px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bold;
+}
+#nav :hover{
+    color: rgb(0, 0, 0);
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0%;
+    display: flex; 
+    align-items: center;
+    justify-content: right;
+}
+#nav li{
+    margin: 10px;
+}  
+#content{
+    padding: 10px;
+} 
+#Footer {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #f5eded; /* Optional: border to separate footer from content */
+}
+
+#Footer a {
+    color: #0066d3; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#Footer a:hover {
+  color: rgb(74, 182, 245); 
+}

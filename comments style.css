@@ -1,0 +1,115 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding:20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 1300px
+}
+.logo{
+    position: absolute;
+    left: 20px;
+    height: 120px;
+    width: auto;
+}#nav {
+    background-color: rgb(204, 0, 0);
+    color: rgb(255, 255, 255);
+    align-content: center;
+    transition: color 3s;
+    width: 1340px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bold;
+}
+#nav :hover{
+    color: rgb(0, 0, 0);
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0%;
+    display: flex; 
+    align-items: center;
+    justify-content: right;
+}
+#nav li{
+    margin: 10px;
+}   
+body{
+    background-image:url(img/chat.2.png);
+    background-color: rgb(0, 68, 6);
+}
+
+h2{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#form {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.801);
+    font-family: Arial, sans-serif;
+}
+
+#form form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input[type="text"],
+textarea {
+    color: #fff;
+    background-color: #4d4d4d;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #4d4d4d;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #000000;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #df0000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(161, 0, 0);
+}
