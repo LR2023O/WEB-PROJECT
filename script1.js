@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Select form elements
     const form = document.querySelector("form");
     const firstName = document.getElementById("fname");
-    const lastName = document.getElementById("lname");
+    const lastName = document.getElementById("uname");
     const comment = document.getElementById("comment");
 
     // Function to validate form
