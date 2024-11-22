@@ -15,13 +15,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Validate first name
         if (firstName.value.trim() === "") {
-            showError(firstName, "First name is required");
+            showError(firstName, "Email Adress is required");
             isValid = false;
         }
 
         // Validate last name
         if (lastName.value.trim() === "") {
-            showError(lastName, "Last name is required");
+            showError(lastName, "Username is required");
             isValid = false;
         }
 
