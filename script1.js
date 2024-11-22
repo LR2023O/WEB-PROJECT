@@ -35,7 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!isValid) {
             event.preventDefault();
         } else {
-            alert("Thank you for your comment!");
+            var x = document.getElementById("frm1").value;
+alert("Hi"+" "+x+ "Thank you for your comment!");
         }
     }
 
