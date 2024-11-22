@@ -31,12 +31,12 @@ document.addEventListener("DOMContentLoaded", function () {
             isValid = false;
         }
 
-        // Prevent form submission if any validation fails
+         // Prevent form submission if any validation fails
         if (!isValid) {
             event.preventDefault();
         } else {
-            var x = document.getElementById("lname").value;
-alert("Hi"+" "+x+ "Thank you for your comment!");
+            const lastNameValue = lastName.value.trim();
+            alert("Hi " + lastNameValue + ", Thank you for your comment");
         }
     }
 
