@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Select form elements
     const form = document.querySelector("form");
     const firstName = document.getElementById("fname");
-    const lastName = document.getElementById("uname");
+    const lastName = document.getElementById("lname");
     const comment = document.getElementById("comment");
 
     // Function to validate form
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!isValid) {
             event.preventDefault();
         } else {
-            var x = document.getElementById("frm1").value;
+            var x = document.getElementById("lname").value;
 alert("Hi"+" "+x+ "Thank you for your comment!");
         }
     }
